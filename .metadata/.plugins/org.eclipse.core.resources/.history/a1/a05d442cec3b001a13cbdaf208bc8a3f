@@ -1,0 +1,16 @@
+package di.service;
+
+import di.modelo.Cliente;
+import di.modelo.Produto;
+import di.notificacao.NotificadorEmail;
+import di.notificacao.NotificadorSMS;
+
+public class EmissaoNotafiscalService {
+	
+	public void emitir(Cliente cliente, Produto produto) {
+		// TODO emite a nota fiscal
+		
+		NotificadorSMS notificador = new NotificadorSMS();
+		notificador.notificar(cliente, "Nota fiscal do produto" + produto.getNome() + "foi emitida");
+	}
+}

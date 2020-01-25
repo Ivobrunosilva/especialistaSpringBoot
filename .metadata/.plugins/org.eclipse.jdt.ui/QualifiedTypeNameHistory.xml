@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="di.modelo.Produto"/>
+    <fullyQualifiedTypeName name="di.notificacao.NotificadorEmail"/>
+    <fullyQualifiedTypeName name="di.notificacao.Notificador"/>
+    <fullyQualifiedTypeName name="com.example.algafood.di.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="com.example.algafood.di.notificacao.NotificadorEmail"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package di.service;
+
+import di.modelo.Cliente;
+import di.notificacao.NotificadorSMS;
+import di.notificacao.Notificador;
+import di.notificacao.NotificadorEmail;
+
+private Notificador notificador; 
+
+public class AtivacaoClienteService {
+	public void ativar (Cliente cliente) {
+		cliente.ativar();
+		NotificadorSMS notificador = new NotificadorSMS();
+		notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+	}
+}

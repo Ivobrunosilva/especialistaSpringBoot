@@ -1,0 +1,25 @@
+package di.service;
+
+import di.modelo.Cliente;
+import di.modelo.Produto;
+import di.notificacao.Notificador;
+import di.notificacao.NotificadorEmail;
+import di.notificacao.NotificadorSMS;
+
+public class EmissaoNotafiscalService {
+	
+	public void emitir(Cliente cliente, Produto produto) {
+		// TODO emite a nota fiscal
+		
+		private Notificador notificador; 
+
+		public void ativacaoClienteService(Notificador notificador) {
+			this.notificador = notificador;
+		}
+
+		public void ativar (Cliente cliente) {
+				cliente.ativar();
+				
+				this.notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+			}
+}

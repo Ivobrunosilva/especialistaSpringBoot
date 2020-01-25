@@ -1,0 +1,21 @@
+package com.example.algafood.di.service;
+
+import com.example.algafood.di.modelo.Cliente;
+import com.example.algafood.di.notificacao.NotificadorEmail;
+
+import di.notificacao.Notificador;
+
+public class AtivacaoClienteService {
+
+	private NotificadorEmail notificador; 
+
+	public void ativacaoClienteService(Notificador notificador) {
+		this.notificador = notificador;
+	}
+
+	public void ativar (Cliente cliente) {
+			cliente.ativar();
+		
+		this.notificador.notificar(cliente, "Seu cadastro no sistema está ativo!");
+	}
+}
