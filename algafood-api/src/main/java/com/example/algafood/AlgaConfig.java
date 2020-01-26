@@ -9,14 +9,14 @@ import com.example.algafood.di.service.AtivacaoClienteService;
 @Configuration
 public class AlgaConfig {
 	
-	@Bean
-	public NotificadorEmail notificadorEmail() {
-		NotificadorEmail notificador = new NotificadorEmail("smtp.algamail.com.br");
-		notificador.setCaixaAlta(false);
-		return notificador;
-	}
-	
-	public AtivacaoClienteService ativacaoClienteService() {
-		return new AtivacaoClienteService(notificadorEmail());
-	}
+//	@Bean
+//	public NotificadorEmail notificadorEmail() {
+//		NotificadorEmail notificador = new NotificadorEmail("smtp.algamail.com.br");
+//		notificador.setCaixaAlta(false);
+//		return notificador;
+//	}
+//	
+//	public AtivacaoClienteService ativacaoClienteService() {
+//		return new AtivacaoClienteService(notificadorEmail());
+//	}
 }

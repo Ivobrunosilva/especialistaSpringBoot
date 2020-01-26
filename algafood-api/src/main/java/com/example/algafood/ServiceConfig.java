@@ -8,7 +8,7 @@ import com.example.algafood.di.service.AtivacaoClienteService;
 
 @Configuration
 public class ServiceConfig {
-	public AtivacaoClienteService ativacaoClienteService(Notificador notificador) {
-		return new AtivacaoClienteService(notificador);
-	}
+//	public AtivacaoClienteService ativacaoClienteService(Notificador notificador) {
+//		return new AtivacaoClienteService(notificador);
+//	}
 }
