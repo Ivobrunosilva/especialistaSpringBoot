@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/ivo/Área de Trabalho/sts-4.5.0.RELEASE/especialistaSpringBoot/algafood-api"/>
 			<item value="/home/ivo/Área de Trabalho/sts-4.5.0.RELEASE/projetos/injecao"/>
 			<item value="/home/ivo/Área de Trabalho/sts-4.5.0.RELEASE/projetos/maratonaSpringBoot"/>
 		</list>
